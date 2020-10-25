@@ -1,0 +1,82 @@
+.header{
+    width: 90%;
+    margin:0 auto;
+    .title{
+        font-size: 50rpx;
+        font-family: PingFang;
+        font-weight: 800;
+        color: #2A2A2A;
+    }
+}
+.content{
+    width: 90%;
+    margin:0 auto;
+    margin-top:20rpx;
+    .title{
+        display: block;
+        font-size: 45rpx;
+        font-family: PingFang;
+        font-weight: 800;
+        color: #2A2A2A;
+    }
+    .body{
+        margin-top: 20rpx;
+        .item{
+            width: 100%;
+            border-radius: 20rpx;
+            box-shadow: 0rpx 0rpx 10rpx 5rpx #D8D8D8;
+            margin-bottom: 20rpx;
+            margin-top: 20rpx;
+            .item_img{
+
+            }
+            .item_text{
+                width: 50%;
+                .text{
+                    font-size: 28rpx;
+                    font-family: PingFang;
+                    font-weight: 800;
+                    color: #000000;
+                    display: block;
+                    margin-top: 50rpx;
+                    margin-bottom: 20rpx;
+                    
+                }
+                .sub_text{
+                    display: block;
+                    font-size: 26rpx;
+                    font-family: Roboto;
+                    font-weight: 300;
+                    color: #636262;
+                    margin-bottom: 30rpx;
+                }
+                .item_btn{
+                    width: 50%;
+                    float: left;
+                    border-radius: 25rpx;
+                    background-color: #0064FF;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 30rpx;
+                    height: 40rpx;
+                    line-height: 40rpx;
+                }
+            }
+        }
+    }
+}
+.footer{
+    .title{
+        width: 90%;
+        margin:0 auto;
+        display: block;
+        font-size: 45rpx;
+        font-family: PingFang;
+        font-weight: 800;
+        color: #2A2A2A;
+    }
+}
+.footer_img{
+    width: 50%;
+    margin: 20rpx auto;
+}

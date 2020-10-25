@@ -1,0 +1,34 @@
+.index{
+    width: 90%;
+    margin:0 auto;
+    .title{
+        display: block;
+        font-size: 45rpx;
+        font-family: PingFang;
+        font-weight: 800;
+        color: #2A2A2A;
+    }
+    .content{
+        .item{
+            width: 90%;
+            height: 300rpx;
+            margin:20rpx auto;
+            background: #FFFFFF;
+            border-radius: 20rpx;
+            box-shadow: 0rpx 0rpx 10rpx 5rpx #D8D8D8;
+            text-align: center;
+            .item_img{
+                width: 50%;
+                height: 200px;
+                margin:0 auto;
+                padding-top:20rpx;
+            }
+            .item_text{
+                font-size: 35rpx;
+                font-family: PingFang;
+                font-weight: 800;
+                color: #2A2A2A;
+            }
+        }
+    }
+}

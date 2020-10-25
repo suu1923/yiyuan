@@ -1,0 +1,159 @@
+[{
+		"name": "颈椎手术术后康复指导",
+		"data": [
+			{
+				"id": 1,
+				"title": "四肢肌肉锻炼",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/1.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/1.mp4",
+				"text":""
+			},
+			{
+				"id": 2,
+				"title": "背部肌肉锻炼",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/2.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/2.mp4",
+				"text":""
+			},
+			{
+				"id": 3,
+				"title": "颈部保暖",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/3.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/3.mp4",
+				"text":""
+			},
+			{
+				"id": 4,
+				"title": "正确坐姿演示",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/4.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/4.mp4",
+				"text":""
+			},
+			{
+				"id": 5,
+				"title": "全身锻炼",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/5.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/5.mp4",
+				"text":""
+			},
+			{
+				"id": 6,
+				"title": "睡眠姿势",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/6.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/jing/6.mp4",
+				"text":""
+			},
+			{
+				"id": 7,
+				"title": "乘车指导",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/7.png",
+				"type":"image",
+				"static":"http://share.suuweb.cn/yiyuan/text/jing/7.png",
+				"text":"http://share.suuweb.cn/yiyuan/text/jing/7.json",
+				"voice":"http://share.suuweb.cn/yiyuan/video/7.mp3"
+			},
+			{
+				"id": 8,
+				"title": "饮食指导",
+				"img": "http://share.suuweb.cn/yiyuan/list/jing/8.png",
+				"type":"image",
+				"static":"http://share.suuweb.cn/yiyuan/text/jing/8.png",
+				"text":"http://share.suuweb.cn/yiyuan/text/jing/8.json",
+				"voice":"http://share.suuweb.cn/yiyuan/video/8.mp3"
+			}
+		]
+	},
+	{
+		"name": "腰椎手术术后康复指导",
+		"data": [
+			{
+				"id": 1,
+				"title": "沐浴",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/1.png",
+				"type":"video",                                
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/1.mp4",
+				"text":""
+			},
+			{
+				"id": 2,
+				"title": "室内外活动",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/2.png",
+				"type":"video",                                
+                "static":"http://share.suuweb.cn/yiyuan/video/yao/2.mp4",
+				"text":""
+			},
+			{
+				"id": 3,
+				"title": "卧床休息",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/3.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/3.mp4",
+				"text":""
+			},
+			{
+				"id": 4,
+				"title": "搬重物",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/4.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/4.mp4",
+				"text":""
+			},
+			{
+				"id": 5,
+				"title": "上下楼梯",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/5.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/5.mp4",
+				"text":""
+			},
+			{
+				"id": 6,
+				"title": "扭腰弯腰",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/6.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/6.mp4",
+				"text":""
+			},
+			{
+				"id": 7,
+				"title": "坐姿指导",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/7.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/7.mp4",
+				"text":""
+			},
+			{
+				"id": 8,
+				"title": "床上穿衣",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/8.png",
+				"type":"video",
+				"static":"http://share.suuweb.cn/yiyuan/video/yao/8.mp4",
+				"text":""
+			},
+			{
+				"id": 8,
+				"title": "其他就诊",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/9.png",
+				"type":"image",
+				"static":"http://share.suuweb.cn/yiyuan/text/yao/9.png",
+				"text":"http://share.suuweb.cn/yiyuan/text/yao/9.json",
+				"voice":"http://share.suuweb.cn/yiyuan/video/9.mp3"
+			},
+			{
+				"id": 8,
+				"title": "禁止事项",
+				"img": "http://share.suuweb.cn/yiyuan/list/yao/10.png",
+				"type":"image",
+				"static":"http://share.suuweb.cn/yiyuan/text/yao/10.png",
+				"text":"http://share.suuweb.cn/yiyuan/text/yao/10.json",
+				"voice":"http://share.suuweb.cn/yiyuan/video/10.mp3"
+			}
+		]
+	}
+]
