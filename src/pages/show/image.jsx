@@ -29,9 +29,21 @@ export default class Index extends Component {
         voice_url:getCurrentInstance().router.params.voice_url
       }
 
+      console.log(this.state.voice_url)
+
       // 设置当前的title
       Taro.setNavigationBarTitle({
         title: this.state.title
+      })
+      const innerAudioContext = Taro.createInnerAudioContext()
+      innerAudioContext.autoplay = true
+      innerAudioContext.src = this.state.voice_url
+      innerAudioContext.onPlay(() => {
+        console.log('开始播放')
+      })
+      innerAudioContext.onError((res) => {
+        console.log(res.errMsg)
+        console.log(res.errCode)
       })
   }
   // 请求JSON  文本 和 图片
@@ -56,18 +68,9 @@ export default class Index extends Component {
     return (
       <View className='body'>
         <View className='header'>
-          <Image mode="widthFix" style='width:100%;margin-top:40rpx' src={this.state.images_url}/>
+          <Image mode="widthFix" style='width:100%' src={this.state.images_url}/>
         </View> 
         <View className='components-page'>
-        <Audio
-          src={this.state.voice_url}
-          controls={true}
-          autoplay={true}
-          loop={false}
-          muted={true}
-          initialTime='30'
-          id='video'
-        />
       </View>
         <View className='content'>
            <Text className='title'>{this.state.title}</Text>

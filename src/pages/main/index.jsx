@@ -23,28 +23,28 @@ export default class Index extends Component {
         {
           "title":"人工间盘置换术治疗原理",
           "sub_title":"Mobi-C",
-          "img":"http://share.suuweb.cn/yiyuan/main0.png",
-          "video_url":"http://share.suuweb.cn/yiyuan/video/jing0.mp4"
+          "img":"http://zm-spine.bestory.net/main0.png",
+          "video_url":"http://zm-spine.bestory.net/video/jing0.mp4"
         },
         {
           "title":"颈椎融合手术治疗原理",
           "sub_title":"Mobi-C",
-          "img":"http://share.suuweb.cn/yiyuan/main1.png",
-          "video_url":"http://share.suuweb.cn/yiyuan/video/jing1.mp4"
+          "img":"http://zm-spine.bestory.net/main1.png",
+          "video_url":"http://zm-spine.bestory.net/video/jing1.mp4"
         }
       ],
       contentText1:[
         {
           "title":"腰椎动态稳定治疗原理",
           "sub_title":"Mobi-C",
-          "img":"http://share.suuweb.cn/yiyuan/main0.png",
-          "video_url":"http://share.suuweb.cn/yiyuan/video/yao0.mp4"
+          "img":"http://zm-spine.bestory.net/main0.png",
+          "video_url":"http://zm-spine.bestory.net/video/yao0.mp4"
         },
         {
           "title":"腰椎融合手术治疗原理",
           "sub_title":"Mobi-C",
-          "img":"http://share.suuweb.cn/yiyuan/main1.png",
-          "video_url":"http://share.suuweb.cn/yiyuan/video/yao1.mp4"
+          "img":"http://zm-spine.bestory.net/main1.png",
+          "video_url":"http://zm-spine.bestory.net/video/yao1.mp4"
         }
       ]
     }

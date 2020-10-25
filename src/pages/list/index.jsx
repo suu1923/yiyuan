@@ -51,7 +51,7 @@ export default class Index extends Component {
       let voice = e.currentTarget.dataset.voice
       // 跳转到图文展示页面
       Taro.navigateTo({
-        url:"/pages/show/image?id="+id+"&title="+title+"&static_url="+static_url+"&text="+text+"&voice="+voice
+        url:"/pages/show/image?id="+id+"&title="+title+"&static_url="+static_url+"&text="+text+"&voice_url="+voice
       })
     }
   }
