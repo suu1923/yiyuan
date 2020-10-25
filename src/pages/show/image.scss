@@ -1,10 +1,14 @@
 .body{
     .header{
-
+        height: calc(40vh)
     }
     .content{
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
+        width: 100%;
+        position: absolute;
+        top:  calc(38vh);
+        background-color: #fff;
         .title{
             width: 86%;
             margin:0 auto;

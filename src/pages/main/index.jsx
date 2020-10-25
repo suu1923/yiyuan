@@ -102,7 +102,7 @@ export default class Index extends Component {
     })
   }
   toVideoPage = (e) => {
-    console.log(e.currentTarget.dataset.video_url)
+
     Taro.navigateTo({
       url:"/pages/show/video?static_url="+e.currentTarget.dataset.video_url+"&video_title="+e.currentTarget.dataset.video_title
     })
@@ -116,7 +116,6 @@ export default class Index extends Component {
       contentTextArr = this.state.contentText1
     }
 
-    console.log(contentTextArr)
 
     return (
       <View className='index'>

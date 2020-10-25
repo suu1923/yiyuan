@@ -3,7 +3,6 @@ import { View,Video } from '@tarojs/components'
 import Taro, { getCurrentInstance } from '@tarojs/taro'
 import './video.scss'
 
-
 // 请求JSON？
 
 export default class Index extends Component {

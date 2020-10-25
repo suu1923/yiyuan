@@ -9,14 +9,11 @@ export default class Index extends Component {
 
   componentWillMount () { }
 
-
-
   componentWillUnmount () { }
 
   componentDidShow () { }
 
   componentDidHide () { }
-
 
   constructor(props){
     super(props)
@@ -39,7 +36,7 @@ export default class Index extends Component {
       innerAudioContext.autoplay = true
       innerAudioContext.src = this.state.voice_url
       innerAudioContext.onPlay(() => {
-        console.log('开始播放')
+        console.log('start play')
       })
       innerAudioContext.onError((res) => {
         console.log(res.errMsg)
@@ -65,10 +62,11 @@ export default class Index extends Component {
   }
   render () {
     let {textJson} = this.state
+    console.log(typeof(textJson))
     return (
       <View className='body'>
         <View className='header'>
-          <Image mode="widthFix" style='width:100%' src={this.state.images_url}/>
+          <Image mode="aspectFill" style='width:100%;height: calc(40vh);' src={this.state.images_url}/>
         </View> 
         <View className='components-page'>
       </View>
