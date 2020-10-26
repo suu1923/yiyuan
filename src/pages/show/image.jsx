@@ -10,7 +10,8 @@ export default class Index extends Component {
   componentWillMount () { }
 
   componentWillUnmount () {
-   }
+    this.state.innerAudioContext.stop()
+  }
 
   componentDidShow () { }
 
@@ -24,22 +25,19 @@ export default class Index extends Component {
         textJson:[],
         text_json_url:getCurrentInstance().router.params.text,
         images_url:getCurrentInstance().router.params.static_url,
-        voice_url:getCurrentInstance().router.params.voice_url
+        voice_url:getCurrentInstance().router.params.voice_url,
+        innerAudioContext:Taro.createInnerAudioContext()
       }
-
-      console.log(this.state.voice_url)
-
       // 设置当前的title
       Taro.setNavigationBarTitle({
         title: this.state.title
       })
-      const innerAudioContext = Taro.createInnerAudioContext()
-      innerAudioContext.autoplay = true
-      innerAudioContext.src = this.state.voice_url
-      innerAudioContext.onPlay(() => {
+      this.state.innerAudioContext.autoplay = true
+      this.state.innerAudioContext.src = this.state.voice_url
+      this.state.innerAudioContext.onPlay(() => {
         console.log('start play')
       })
-      innerAudioContext.onError((res) => {
+      this.state.innerAudioContext.onError((res) => {
         console.log(res.errMsg)
         console.log(res.errCode)
       })
