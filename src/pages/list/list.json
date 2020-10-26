@@ -137,7 +137,7 @@
 				"text":""
 			},
 			{
-				"id": 8,
+				"id": 9,
 				"title": "其他就诊",
 				"img": "http://zm-spine.bestory.net/list/yao/9.png",
 				"type":"image",
@@ -146,12 +146,12 @@
 				"voice":"http://zm-spine.bestory.net/video/yao/9.mp3"
 			},
 			{
-				"id": 8,
+				"id": 10,
 				"title": "禁止事项",
 				"img": "http://zm-spine.bestory.net/list/yao/10.png",
 				"type":"image",
 				"static":"http://zm-spine.bestory.net/text/yao/10.png",
-				"text":"http://share.suuweb.cn/yiyuan/text/yao/10.json",
+				"text":"http://zm-spine.bestory.net/text/yao/10.json",
 				"voice":"http://zm-spine.bestory.net/video/yao/10.mp3"
 			}
 		]
