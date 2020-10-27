@@ -39,6 +39,7 @@ export default class Index extends Component {
       <View className='body'>
           <Video 
             src={this.state.video_url}
+            autoplay={true}
             controls={true}
             objectFit="fill"
             className='player'

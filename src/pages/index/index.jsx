@@ -44,7 +44,7 @@ export default class Index extends Component {
         </View>
         <View className='body'>
           <View className='body_desc'>
-            <Text className='body_title'>你想了解……</Text>
+            <Text className='body_title'>您想了解……</Text>
             <Text className='body_sub_title'>根据选择为您提供更精准的服务</Text>
           </View>
           <View className='body_img'>
@@ -53,7 +53,7 @@ export default class Index extends Component {
           </View>
         </View>
         <View style='text-align:center'>
-            <Text onClick={this.toUse}>使用须知</Text>
+            <Text onClick={this.toUse} style='font-size: 30rpx;color: blue;text-decoration: underline'>使用须知</Text>
         </View>
         <View className='footer'>
           <Image style='width:100%' mode="widthFix" src={fooImg} /> 
