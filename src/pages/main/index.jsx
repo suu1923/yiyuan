@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 import { View, Text,Image } from '@tarojs/components'
-import { AtButton  } from 'taro-ui'
 import Taro,{getCurrentInstance, getCurrentPages }from '@tarojs/taro'
-import "taro-ui/dist/style/components/button.scss" // 按需引入
 import "taro-ui/dist/style/components/flex.scss";
 import './index.scss'
 
-import headerImg from '../../static/images/banner.png'
 import bannerJing from '../../static/images/banner_jing.png'
 import bannerYao from '../../static/images/banner_yao.png'
 
@@ -25,24 +22,24 @@ export default class Index extends Component {
       contentText0:[
         {
           "title":"颈椎融合手术治疗原理",
-          "img":"http://share.suuweb.cn/yiyuan/main_jing_0.png",
+          "img":"http://zm-spine.bestory.net/main_jing_0.png",
           "video_url":"http://zm-spine.bestory.net/video/jing1.mp4"
         },
         {
           "title":"颈椎间盘置换术治疗原理",
-          "img":"http://share.suuweb.cn/yiyuan/main_jing_1.png",
+          "img":"http://zm-spine.bestory.net/main_jing_1.png",
           "video_url":"http://zm-spine.bestory.net/video/jing0.mp4"
         }
       ],
       contentText1:[
         {
           "title":"腰椎融合手术原理",
-          "img":"http://share.suuweb.cn/yiyuan/main_yao_0.png",
+          "img":"http://zm-spine.bestory.net/main_yao_0.png",
           "video_url":"http://zm-spine.bestory.net/video/yao1.mp4"
         },
         {
           "title":"腰椎动态稳定治疗原理",
-          "img":"http://share.suuweb.cn/yiyuan/main_yao_1.png",
+          "img":"http://zm-spine.bestory.net/main_yao_1.png",
           "video_url":"http://zm-spine.bestory.net/video/yao0.mp4"
         }
       ]
