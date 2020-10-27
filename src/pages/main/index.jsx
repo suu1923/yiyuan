@@ -22,13 +22,11 @@ export default class Index extends Component {
       contentText0:[
         {
           "title":"人工间盘置换术治疗原理",
-          "sub_title":"Mobi-C",
           "img":"http://zm-spine.bestory.net/main0.png",
           "video_url":"http://zm-spine.bestory.net/video/jing0.mp4"
         },
         {
           "title":"颈椎融合手术治疗原理",
-          "sub_title":"Mobi-C",
           "img":"http://zm-spine.bestory.net/main1.png",
           "video_url":"http://zm-spine.bestory.net/video/jing1.mp4"
         }
@@ -36,13 +34,11 @@ export default class Index extends Component {
       contentText1:[
         {
           "title":"腰椎动态稳定治疗原理",
-          "sub_title":"Mobi-C",
           "img":"http://zm-spine.bestory.net/main0.png",
           "video_url":"http://zm-spine.bestory.net/video/yao0.mp4"
         },
         {
           "title":"腰椎融合手术治疗原理",
-          "sub_title":"Mobi-C",
           "img":"http://zm-spine.bestory.net/main1.png",
           "video_url":"http://zm-spine.bestory.net/video/yao1.mp4"
         }
@@ -133,7 +129,6 @@ export default class Index extends Component {
                 </View>
                 <View className='item_text at-col'>
                   <Text className='text'>{item.title}</Text>
-                  <Text className='sub_text'>{item.sub_title}</Text>
                   <View onClick={this.toVideoPage} size='small' className='item_btn' data-video_url={item.video_url} data-video_title={item.title} circle={true} type='primary'>点击播放</View>
                 </View>
             </View>

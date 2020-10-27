@@ -1,6 +1,7 @@
 export default {
   pages: [
     'pages/index/index',
+    'pages/index/readme',
     'pages/main/index',
     'pages/list/index',
     'pages/show/video',
