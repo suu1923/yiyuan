@@ -45,6 +45,7 @@ export default class Index extends Component {
   // 请求JSON  文本 和 图片
   componentDidMount () {
     let jsonUrl = this.state.text_json_url
+    console.log(jsonUrl)
     let that = this
     Taro.request({
         url: jsonUrl, //仅为示例，并非真实的接口地址

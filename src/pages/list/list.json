@@ -4,68 +4,68 @@
 			{
 				"id": 1,
 				"title": "四肢肌肉锻炼",
-				"img": "http://zm-spine.bestory.net/list/jing/1.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/1.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/1.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/1.mp4",
 				"text":""
 			},
 			{
 				"id": 2,
 				"title": "背部肌肉锻炼",
-				"img": "http://zm-spine.bestory.net/list/jing/2.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/2.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/2.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/2.mp4",
 				"text":""
 			},
 			{
 				"id": 3,
 				"title": "颈部保暖",
-				"img": "http://zm-spine.bestory.net/list/jing/3.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/3.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/3.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/3.mp4",
 				"text":""
 			},
 			{
 				"id": 4,
 				"title": "正确坐姿演示",
-				"img": "http://zm-spine.bestory.net/list/jing/4.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/4.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/4.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/4.mp4",
 				"text":""
 			},
 			{
 				"id": 5,
 				"title": "全身锻炼",
-				"img": "http://zm-spine.bestory.net/list/jing/5.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/5.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/5.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/5.mp4",
 				"text":""
 			},
 			{
 				"id": 6,
 				"title": "睡眠姿势",
-				"img": "http://zm-spine.bestory.net/list/jing/6.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/6.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/jing/6.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/jing/6.mp4",
 				"text":""
 			},
 			{
 				"id": 7,
 				"title": "乘车指导",
-				"img": "http://zm-spine.bestory.net/list/jing/7.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/7.png",
 				"type":"image",
-				"static":"http://zm-spine.bestory.net/text/jing/7.png",
-				"text":"http://zm-spine.bestory.net/text/jing/7.json",
-				"voice":"http://zm-spine.bestory.net/video/jing/7.mp3"
+				"static":"https://zm-spine.bestory.net:229/text/jing/7.png",
+				"text":"https://zm-spine.bestory.net:229/text/jing/7.json",
+				"voice":"https://zm-spine.bestory.net:229/video/jing/7.mp3"
 			},
 			{
 				"id": 8,
 				"title": "饮食指导",
-				"img": "http://zm-spine.bestory.net/list/jing/8.png",
+				"img": "https://zm-spine.bestory.net:229/list/jing/8.png",
 				"type":"image",
-				"static":"http://zm-spine.bestory.net/text/jing/8.png",
-				"text":"http://zm-spine.bestory.net/text/jing/8.json",
-				"voice":"http://zm-spine.bestory.net/video/jing/8.mp3"
+				"static":"https://zm-spine.bestory.net:229/text/jing/8.png",
+				"text":"https://zm-spine.bestory.net:229/text/jing/8.json",
+				"voice":"https://zm-spine.bestory.net:229/video/jing/8.mp3"
 			}
 		]
 	},
@@ -75,84 +75,84 @@
 			{
 				"id": 1,
 				"title": "沐浴",
-				"img": "http://zm-spine.bestory.net/list/yao/1.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/1.png",
 				"type":"video",                                
-				"static":"http://zm-spine.bestory.net/video/yao/1.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/1.mp4",
 				"text":""
 			},
 			{
 				"id": 2,
 				"title": "室内外活动",
-				"img": "http://zm-spine.bestory.net/list/yao/2.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/2.png",
 				"type":"video",                                
-                "static":"http://zm-spine.bestory.net/video/yao/2.mp4",
+                "static":"https://zm-spine.bestory.net:229/video/yao/2.mp4",
 				"text":""
 			},
 			{
 				"id": 3,
 				"title": "卧床休息",
-				"img": "http://zm-spine.bestory.net/list/yao/3.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/3.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/3.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/3.mp4",
 				"text":""
 			},
 			{
 				"id": 4,
 				"title": "搬重物",
-				"img": "http://zm-spine.bestory.net/list/yao/4.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/4.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/4.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/4.mp4",
 				"text":""
 			},
 			{
 				"id": 5,
 				"title": "上下楼梯",
-				"img": "http://zm-spine.bestory.net/list/yao/5.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/5.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/5.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/5.mp4",
 				"text":""
 			},
 			{
 				"id": 6,
 				"title": "扭腰弯腰",
-				"img": "http://zm-spine.bestory.net/list/yao/6.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/6.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/6.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/6.mp4",
 				"text":""
 			},
 			{
 				"id": 7,
 				"title": "坐姿指导",
-				"img": "http://zm-spine.bestory.net/list/yao/7.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/7.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/7.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/7.mp4",
 				"text":""
 			},
 			{
 				"id": 8,
 				"title": "床上穿衣",
-				"img": "http://zm-spine.bestory.net/list/yao/8.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/8.png",
 				"type":"video",
-				"static":"http://zm-spine.bestory.net/video/yao/8.mp4",
+				"static":"https://zm-spine.bestory.net:229/video/yao/8.mp4",
 				"text":""
 			},
 			{
 				"id": 9,
 				"title": "其他就诊",
-				"img": "http://zm-spine.bestory.net/list/yao/9.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/9.png",
 				"type":"image",
-				"static":"http://zm-spine.bestory.net/text/yao/9.png",
-				"text":"http://zm-spine.bestory.net/text/yao/9.json",
-				"voice":"http://zm-spine.bestory.net/video/yao/9.mp3"
+				"static":"https://zm-spine.bestory.net:229/text/yao/9.png",
+				"text":"https://zm-spine.bestory.net:229/text/yao/9.json",
+				"voice":"https://zm-spine.bestory.net:229/video/yao/9.mp3"
 			},
 			{
 				"id": 10,
 				"title": "禁止事项",
-				"img": "http://zm-spine.bestory.net/list/yao/10.png",
+				"img": "https://zm-spine.bestory.net:229/list/yao/10.png",
 				"type":"image",
-				"static":"http://zm-spine.bestory.net/text/yao/10.png",
-				"text":"http://zm-spine.bestory.net/text/yao/10.json",
-				"voice":"http://zm-spine.bestory.net/video/yao/10.mp3"
+				"static":"https://zm-spine.bestory.net:229/text/yao/10.png",
+				"text":"https://zm-spine.bestory.net:229/text/yao/10.json",
+				"voice":"https://zm-spine.bestory.net:229/video/yao/10.mp3"
 			}
 		]
 	}

@@ -22,25 +22,25 @@ export default class Index extends Component {
       contentText0:[
         {
           "title":"颈椎融合手术治疗原理",
-          "img":"http://zm-spine.bestory.net/main_jing_0.png",
-          "video_url":"http://zm-spine.bestory.net/video/jing1.mp4"
+          "img":"https://zm-spine.bestory.net:229/main_jing_0.png",
+          "video_url":"https://zm-spine.bestory.net:229/video/jing1.mp4"
         },
         {
-          "title":"颈椎间盘置换术治疗原理",
-          "img":"http://zm-spine.bestory.net/main_jing_1.png",
-          "video_url":"http://zm-spine.bestory.net/video/jing0.mp4"
+          "title":"人工间盘置换术治疗原理",
+          "img":"https://zm-spine.bestory.net:229/main_jing_1.png",
+          "video_url":"https://zm-spine.bestory.net:229/video/jing0.mp4"
         }
       ],
       contentText1:[
         {
           "title":"腰椎融合手术原理",
-          "img":"http://zm-spine.bestory.net/main_yao_0.png",
-          "video_url":"http://zm-spine.bestory.net/video/yao1.mp4"
+          "img":"https://zm-spine.bestory.net:229/main_yao_0.png",
+          "video_url":"https://zm-spine.bestory.net:229/video/yao1.mp4"
         },
         {
           "title":"腰椎动态稳定治疗原理",
-          "img":"http://zm-spine.bestory.net/main_yao_1.png",
-          "video_url":"http://zm-spine.bestory.net/video/yao0.mp4"
+          "img":"https://zm-spine.bestory.net:229/main_yao_1.png",
+          "video_url":"https://zm-spine.bestory.net:229/video/yao0.mp4"
         }
       ]
     }
@@ -127,7 +127,7 @@ export default class Index extends Component {
             {contentTextArr.map(item=>
               <View className='item at-row'>
                 <View className='item_img at-col'>
-                  <Image mode='aspectFill' style='width:70%;height:100%' src={item.img}/>
+                  <Image mode='aspectFill' style='width:70%;height:100%;border-top-left-radius: 20rpx;border-bottom-left-radius: 20rpx;' src={item.img}/>
                 </View>
                 <View className='item_text at-col'>
                   <Text className='text'>{item.title}</Text>
