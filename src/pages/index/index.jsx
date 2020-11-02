@@ -36,10 +36,11 @@ export default class Index extends Component {
   }
 
   render () {
+    let welcome = '欢迎来到\nZimmer Biomet';
     return (
       <View className='index'>
         <View className='header'>
-          <Text className='title'>欢迎来到zimmer</Text>
+    <Text className='title'>{welcome}</Text>
           <Text className='sub_title'>您身边的脊椎健康专家</Text>
         </View>
         <View className='body'>

@@ -1,5 +1,42 @@
 .body{
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0rpx -40rpx 20rpx 84rpx #ffffff;
+    top:-5rpx;
+    .blank{
+        background-color: #ffffff;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        -webkit-box-shadow: 0rpx -40rpx 20rpx 84rpx #ffffff;
+        box-shadow: 0rpx -40rpx 20rpx 84rpx #ffffff;
+        top: -5rpx;
+    }
+    .tips{
+        position: absolute;
+        right: 30rpx;
+        top: 30px;
+        z-index: 2;
+        font-size: 40rpx;
+        font-weight: bold;
+    }
     .player{
-        width: 100%;height: calc(100vh)
+        width: 100%;
+        height: calc(100vh);
+        position: absolute;
+        top: -2px;
+        overflow: hidden;
+    }
+    .again{
+        background-color: rgba(251, 251, 251, 0.46);
+        z-index: 4;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: calc(45vh);
+        color: #2030f7;
+        font-weight: bold;
+        box-shadow: 0px 0px 7px 0px;
     }
 }

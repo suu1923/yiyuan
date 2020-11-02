@@ -30,6 +30,7 @@
 }
 .body_desc{
     text-align: center;
+    margin-top: 50rpx;
 }
 
 .body_img{
@@ -52,16 +53,14 @@
 }
 
 .body_sub_title{
-    font-size: 25rpx;
-    
-font-family: PingFang;
-font-weight: 500;
-color: #7D7D7E;
+    font-size: 25rpx;   
+    font-family: PingFang;
+    font-weight: 500;
+    color: #7D7D7E;
 }
 .footer{
     width: 50%;
     position: absolute;
-    bottom: 100rpx;
+    bottom: 50rpx;
     left: 25%;
-    
 }
