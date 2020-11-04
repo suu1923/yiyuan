@@ -2,8 +2,8 @@
     background-image: url("../../static/images/header.png");
     background-size: 100%;
     padding-top: 120rpx;
-    background-position-y: 225rpx;
-
+    background-position-y: -340rpx;
+    background-repeat: no-repeat;    
 }
 
 .title{
@@ -26,17 +26,16 @@
 }
 
 .body{
-    margin-top: 220rpx;
+    margin-top: 150rpx;
 }
 .body_desc{
     text-align: center;
-    margin-top: 50rpx;
 }
 
 .body_img{
     width: 80%;
     margin:0 auto;
-    margin-top: 60rpx;
+    margin-top: 20rpx;
 }
 .choose_btn{
     width: 100%;
@@ -57,6 +56,8 @@
     font-family: PingFang;
     font-weight: 500;
     color: #7D7D7E;
+    display: block;
+
 }
 .footer{
     width: 50%;

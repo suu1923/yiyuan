@@ -50,7 +50,7 @@ export default class Index extends Component {
     return (
       <View className='body'>
           <View className='blank'></View>
-          <Text className='tips'>动图示意</Text>
+          {/* <Text className='tips'>动图示意</Text> */}
           <Video 
             id="myvideo"
             src={this.state.video_url}
